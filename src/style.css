@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e4ebf1;
+}
+
+/* NAV BAR */
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.192);
+}
+
+ul > li {
+  padding: 10px 20px;
+  font-size: 2rem;
+}
+
+li > a {
+  color: white;
+}
+
+/* FRONT PAGE */
+.frontpage-wrap {
+  width: 100%;
+}
+
+.title {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Encode Sans SC", sans-serif;
+  color: rgb(212, 97, 97);
+  text-shadow: 1px 1px 1px black;
+}
+
+.heading {
+  display: flex;
+  margin: 50px auto;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.heading-image {
+  flex: 1;
+}
+.heading-headline {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 1px solid lightgrey;
+}
+
+/* MENU */
+
+.menu-wrap {
+  margin: 80px 20%;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding-top: 20px;
+}
+
+.menu-item > p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.price {
+  float: right;
+}
+
+/*CONTACT FORM*/
+
+.content-title {
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.content-description {
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.4rem;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+.inputs-wrap {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10px;
+}
+
+.comment-wrap {
+  display: flex;
+  flex-direction: column;
+}
